@@ -1,0 +1,143 @@
+body{
+    font-family: "Playfair Display", serif;
+}
+
+.home .img-txt{
+    
+    background-image: url(images/iphones.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.home .img-txt p{
+    font-size: 60px;
+    font-weight: 500;
+}
+.home .img-txt button{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+.home .img-txt button:hover{
+    background-color: #414147;
+}
+
+.home .my-nav .cart-shopping button{
+    border: none;
+    background-color: transparent;
+}
+
+.home .my-nav{
+    
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+
+.home .my-nav .catg ul{
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.home .my-nav .catg ul li:hover{
+    color: black;
+}
+
+.cases{
+    margin-bottom:70px ;
+}
+
+.feature h2 {
+    position: relative;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.feature h2::after{
+    content: '';
+    width: 70px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.feature .container .links a {
+    text-decoration: none;
+  }
+  
+
+.feature .container .links .case-name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.feature .container .links .price{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+.brands h2 {
+    position: relative;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.brands h2::after{
+    content: '';
+    width: 70px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.signup p{
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.signup button{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #212127;
+}
+ footer .byy{
+    color: #B7B7BB;
+    font-size: 14px;
+    font-weight: 500;
+ }
+
+footer a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .soc-media .follow span{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}

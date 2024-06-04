@@ -1,0 +1,98 @@
+body{
+    font-family: "Playfair Display", serif;
+}
+.container .nav .my-nav .cart-shopping button{
+    border: none;
+    background-color: transparent;
+}
+
+.container .nav .my-nav{
+    
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+
+.container .nav .my-nav .catg ul{
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container .nav .my-nav .catg ul li:hover{
+    color: black;
+}
+
+.container .nav .my-nav .catg ul a{
+    color:#6C757D;
+}
+
+.container .title p{
+    padding: 60px;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: rgb(33, 33, 39);
+
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "nav nav nav nav nav nav nav nav nav nav nav nav"
+      "title title title title title title title title title title title title"
+      ". login login login login . . signup signup signup signup ."
+      ". login login login login . . signup signup signup signup .";
+  }
+  
+  .nav { grid-area: nav; }
+  
+  .title { grid-area: title; }
+  
+  .login { grid-area: login; }
+  
+  .signup { grid-area: signup; }
+
+  
+
+  .signup p{
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.signup button{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #212127;
+}
+ footer .byy{
+    color: #B7B7BB;
+    font-size: 14px;
+    font-weight: 500;
+ }
+
+footer a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .soc-media .follow span{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}

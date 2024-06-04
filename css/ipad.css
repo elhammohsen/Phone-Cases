@@ -1,0 +1,164 @@
+body{
+    font-family: "Playfair Display", serif;
+}
+.container .nav .my-nav .cart-shopping button{
+    border: none;
+    background-color: transparent;
+}
+
+.container .nav .my-nav{
+    
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+
+.container .nav .my-nav .catg ul{
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container .nav .my-nav .catg ul li:hover{
+    color: black;
+}
+
+.container .nav .my-nav .catg ul a{
+    color: #6C757D;
+}
+
+.container .title p{
+    padding: 60px;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: rgb(33, 33, 39);
+
+}
+.container .form h3{ 
+    font-size: 20px;
+    font-weight: 500;
+    position:relative;
+}
+.container .form h3::after{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    
+}
+.container .form p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.container .catg h3 {
+    color:rgb(33, 33, 39) ;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+.container .catg h3::after{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #6C757D;
+    position: absolute;
+    top: 75%;
+    left: 33%;
+}
+
+.container .catg a{
+    text-decoration: none;
+    color: #6C757D;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+     ;
+}
+
+
+
+.container .catg a:hover{
+    color: black;
+}
+
+.container .p1 a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+}
+.container .p2 a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "nav nav nav nav nav nav nav nav nav nav nav nav"
+      "title title title title title title title title title title title title"
+      ". form form form p1 p1 p1 p1 p2 p2 p2 p2"
+      ". catg catg catg p1 p1 p1 p1 p2 p2 p2 p2";
+  }
+  
+  .nav { grid-area: nav; }
+  
+  .title { grid-area: title; }
+  
+  .form { grid-area: form; }
+  
+  .catg { grid-area: catg; }
+  
+  .p1 { grid-area: p1; }
+  
+  .p2 { grid-area: p2; }
+
+
+  
+
+.signup p{
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.signup button{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #212127;
+}
+ footer .byy{
+    color: #B7B7BB;
+    font-size: 14px;
+    font-weight: 500;
+ }
+
+footer a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .soc-media .follow span{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+  
